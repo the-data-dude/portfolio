@@ -1,0 +1,188 @@
+---
+title: "Empresas Brasileiras que mantiveram uma boa média de Dividend Yield em 2019"
+author: "Edson Henrique Delavia"
+date: "23/12/2019"
+output: html_document
+
+---
+
+\  
+\  
+
+### **Introdução**
+\  
+\  
+
+#### Esse ano eu estive pensando em começar a comprar ações e estava realizando alguns estudos pra começar a entrar nesse mercado. Tenho noção de como operar, mas queria formular algumas estratégias. Ponderei muito e decidi, inicialmente, em começar com uma carteira de ações com um bom pagamento de dividendos. Mas, para isso, é preciso tempo para se avaliar as empresas e eu tenho que balancear meu tempo com outras diversas coisas que eu tenho que estudar, tanto no ambito profissional quanto no pessoal.
+\  
+\    
+\  
+
+#### Complicado...
+\  
+\  
+\   
+
+#### Eu realmente não queria postegar tanto essa tarefa, além disso, já tinha me compromissado para hoje praticar um pouco mais de Web Scrapping e explorar mais a bibloteca [tidyquant](https://business-science.github.io/tidyquant/), então, tive a brilhante ideia: vou juntar tudo e fazer uma pequena análise sobre as empresas que mantiveram uma boa média no seu dividend yield em 2019.
+\  
+\  
+
+#### É uma análise bacana, mas, obviamente, não vou formular minhas hipoteses com base neste estudo. Até porque, não tenho ideia se avaliar somente isso é o ideal para tomar alguma decisão. Sou leigo no assunto, para minhas decisões pessoais vou usar ferramentas mais robustas.
+\  
+\  
+
+### **Sobre a análise**
+\  
+\ 
+
+#### A analise irá mostrar as top 10 empresas com maiores dividend yield (quanto de dividendo que uma empresa paga por real de ação). Há empresas que pagam mensalmente, bimestralmente, semestralmente... Então irei quebrar a análise com base nos nichos de pagamento: 12 meses, 6 meses, 3 meses, 2 meses e 1 mês.
+\  
+\
+
+#### Como o foco aqui é a análise, todos os códigos usados em paralelo para extração das informações vão ficar no repositório. Então, não estranhe alguns **source()** por ai.
+\  
+\  
+
+#### Sem mais delongas, vamos à análise.
+\  
+\  
+
+```{r setup, include=FALSE}
+knitr::opts_knit$set(root.dir = dirname(getwd()))
+```
+
+### **Carregando pacotes necessários**
+```{r message=FALSE, warning=FALSE}
+source("main/utilities/necessary_packages.R")
+source("main/utilities/load_libraries.R")
+```
+\  
+\  
+
+### **Buscando quais os tickers das empresas que vamos puxar as informações**
+\  
+
+#### Detalhe importante aqui, estou puxando todos os tickers da [advfn](https://br.advfn.com/), nem todos esses tickers são válidos, alguns devem ser bem antigos. Após isso, como a biblioteca [tidyquant](https://business-science.github.io/tidyquant/) puxa as informações do [Yahoo Finance](https://br.financas.yahoo.com/), acrescentei um **.SA** no final dos tickers. Isso porque vi que procurando os tickers lá, todos tinham esse final **.SA**.
+\  
+
+```{r}
+source("main/utilities/companies_symbols.R")
+
+companies_symbols %>% as.data.frame() %>% head()
+```
+
+### **Extraindo dados históricos das ações e dos dividendos**
+\  
+
+#### Essa extração puxa os dados de 2019 para todas as empresas acima, as que não forem encontradas, claro, ficarão de fora. São duas extrações "demoradas" e depois é feito um join entre elas. Então o código deve demorar pelo menos uns 5 minutos para executar.
+\  
+
+```{r message=FALSE, warning=FALSE}
+source("main/utilities/historical_data.R")
+
+historical_data %>% as.data.frame() %>% head()
+```
+
+### **Consolidando informações**
+\
+
+#### Com os dados em mãos, agora vamos abrir aqui um pouco de código. A ideia é agrupar o valor médio da ação e do dividendo no mês. Como não há empresas que pagam dividendos diários, a média do mês será o próprio valor do dividendo. Após isso, calculamos o dividend_yield e criamos mais um campo dividend_was_payed para contar, depois, quantas vezes a empresa pagou dividendos no ano.
+\  
+
+```{r}
+
+stock_prices <-
+  historical_data %>%
+  select(symbol, date, adjusted, dividends) %>%
+  filter(date >= "2019-01-01") %>%
+  mutate(agg_date = format(as.Date(date), "%Y-%m")) %>%
+  group_by(symbol, agg_date) %>%
+  summarise(month_mean_price = mean(adjusted, na.rm = TRUE), dividends = mean(dividends, na.rm = TRUE), dividend_yield = dividends/month_mean_price) %>%
+  mutate(dividend_was_payed = ifelse(!(is.na(dividend_yield)), 1, 0)) %>%
+  as.data.frame()
+
+head(stock_prices)
+```
+
+#### Agora vamos separar as empresas em grupos, com base na periodicidade de pagamento de seus dividendos
+
+```{r}
+company_groups <- 
+  stock_prices %>% 
+  group_by(symbol) %>%
+  summarise(periodicity = 12/sum(dividend_was_payed)) %>%
+  filter(periodicity %in% c(12, 6, 3, 2, 1)) %>%
+  arrange(desc(periodicity)) %>%
+  as.data.frame()
+
+head(company_groups)
+```
+
+
+#### Por fim, para não ficar repetindo código, vamos criar uma função que nos mostre o ranking das empresas com base na periodicidade passada como argumento
+
+```{r}
+avg_yield_by_periodicity <- function(p) {
+  
+   stock_prices %>%
+   filter(symbol %in% c(company_groups %>% filter(periodicity == p) %>% select(symbol) %>% distinct())$symbol ) %>%
+   group_by(symbol) %>%
+   summarise(period_avg_yield = mean(dividend_yield, na.rm = TRUE)) %>%
+   filter(!is.na(period_avg_yield)) %>%
+   arrange(desc(period_avg_yield)) %>%
+   head(10) %>%
+   as.data.frame()
+
+}
+```
+
+
+#### *Resultados*
+
+# Ranking por periodicidade de pagamento {.tabset .tabset-fade .tabset-pills} 
+
+## Mensalmente
+
+```{r}
+avg_yield_by_periodicity(1)
+```
+
+## Bimestralmente
+
+```{r}
+avg_yield_by_periodicity(2)
+```
+
+
+## Trimestralmente
+
+```{r}
+avg_yield_by_periodicity(3)
+```
+
+
+## Semestralmente
+
+```{r}
+avg_yield_by_periodicity(6)
+```
+
+
+## Anualmente
+
+```{r}
+avg_yield_by_periodicity(12)
+```
+#
+
+### **Conclusão**
+\  
+
+#### Pelos resultados que conseguimos extrair aqui, acho que eu vou ficar de olho nos ativos que fornecem dividendos semestrais. São os que mais pagam bem e esse resultado ocorre pelo menos duas vezes por ano, já que é semestral. Com certeza vou ficar de olho em GSHP3 (General Shopping), que pagou em média 1 real de dividendo para cada 1 real investido em 2019. [Aqui no site da XP Investimentos](https://www.infomoney.com.br/cotacoes/general-shopping-gshp3/) da pra ver que realmente essa análise faz sentido. Porém, para MMAQ4 (Minasmaquina) não consegui achar nenhuma informação relavante por ai que comprove os dados apresentados.
+\  
+
+#### Eu não esperava muito dessa análise, principalmente por ver que os provedores gratuitos de informação não fornecem dados tão atualizados. Para algumas empresas dá certo, para outras nem tanto. Mas, gostei dos resultados; eles fornecem, pelo menos, um norte de quais empresas podemos investigar mais a fundo. 
+\  
+\
+
+#### Obrigado por ler até aqui :) 
