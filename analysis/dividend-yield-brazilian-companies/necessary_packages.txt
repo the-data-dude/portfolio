@@ -1,0 +1,9 @@
+ggplot2
+quantmod
+scales
+ggthemes
+tidyverse
+glue
+rvest
+tidyquant
+DT
