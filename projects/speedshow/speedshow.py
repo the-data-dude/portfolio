@@ -6,8 +6,6 @@ import sys
 import argparse
 import os
 
-
-
 def testspeed():
 
 	test = speedtest.Speedtest()
@@ -128,32 +126,9 @@ class commandLine:
 
 			print("invalid mode, please insert static (return result only one time) or monitoring (continously return results)")
 
-
-
+			
+			
 
 if __name__== "__main__":
 
 	app = commandLine().main()
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-
-
