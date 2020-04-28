@@ -113,17 +113,14 @@ class commandLine:
 						
 
 					else:
-
 						print("storedata argument invalid, please insert 0 for false or 1 for true")
 						break
 
 			else:
-
 				print("invalid refreshtime")
 			
 
 		else:
-
 			print("invalid mode, please insert static (return result only one time) or monitoring (continously return results)")
 
 			
