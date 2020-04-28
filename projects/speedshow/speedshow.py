@@ -61,7 +61,7 @@ class commandLine:
 		parser.add_argument("-m", "--mode", help = "static (return result only one time) or monitoring (continously return results)", required = True, default = "static", type =str)
 		parser.add_argument("-s", "--storedata", help = "bin to check if you want to store data (0 to false, 1 to true)", required = False, default = 0, type = int)
 		parser.add_argument("-d", "--csv_result", help = "path of csv result file", required = False, default = "csv_result.csv", type = str)
-		parser.add_argument("-t", "--refreshtime", help = "refresh time (in minutes) for monitoring mode", required = False, default = 1800, type = int)
+		parser.add_argument("-t", "--refreshtime", help = "refresh time (in minutes) for monitoring mode", required = False, default = 30, type = int)
 		self.arguments = parser.parse_args()
 
 	def main(self):
