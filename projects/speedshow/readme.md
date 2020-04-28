@@ -28,7 +28,7 @@
 - **refreshtime**
 	time (in minutes) to wait before calculate the internet speed again
 	
-	default: 1800 (30min)
+	default: 30
 
 ## Result fields:
 	
