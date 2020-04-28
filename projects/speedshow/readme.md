@@ -1,6 +1,6 @@
 # speedshow
 
-### Project to track internet speed using [speedtest-cli library](https://www.speedtest.net/apps/cli)
+### Project to track internet speed using [speedtest-cli](https://www.speedtest.net/apps/cli) library
 
 ## Usage
 
