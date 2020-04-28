@@ -22,10 +22,12 @@
 	 
 - **csv_result**
 	parameter to change the directory or the name of file that will store the results
+	
 	default: result.csv
 
 - **refreshtime**
 	time (in minutes) to wait before calculate the internet speed again
+	
 	default: 1800 (30min)
 
 ## Result fields:
