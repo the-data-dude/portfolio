@@ -29,6 +29,11 @@
 	time (in minutes) to wait before calculate the internet speed again
 	
 	default: 30
+	
+- **retrytime**
+	retry time (in minutes) for retry if internet connection is not found at the moment
+	
+	default: 10
 
 ## Result fields:
 	
