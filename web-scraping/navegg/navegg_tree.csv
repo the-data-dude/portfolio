@@ -1,0 +1,99 @@
+,segment,type,sub_type,navegg_id,dv360_id,verizon_id,mediamath_id
+0,demographic,Gênero,Homens,1,1756364,1,1
+1,demographic,Gênero,Mulheres,2,1756484,2,2
+2,demographic,Idade,18-24,4,1754324,4,4
+3,demographic,Idade,25-34,5,1754444,5,5
+4,demographic,Idade,35-59,6,1754204,6,6
+5,demographic,Idade,60+,7,1754084,7,7
+6,demographic,Educação,Nãograduado,8,1753964,8,8
+7,demographic,Educação,Graduado,9,1753844,9,9
+8,demographic,Estado civil,Solteiro,10,739404294,10,10
+9,demographic,Estado civil,Casado,11,1752884,11,11
+10,demographic,Classe social,ClasseA/B,12,1753004,12,12
+11,demographic,Classe social,ClasseC,13,1753124,13,13
+12,demographic,Classe social,ClasseD/E,14,1753244,14,14
+13,technology,Dispositivos,Desktop,37,451211033,37,37
+14,technology,Dispositivos,Tablet,38,451159684,38,38
+15,technology,Dispositivos,Mobile,39,451159705,39,39
+16,technology,Dispositivos,Outros,40,451159723,40,40
+17,technology,Navegadores,Safari,30,451211165,30,30
+18,technology,Navegadores,Ópera,31,451159798,31,31
+19,technology,Navegadores,Firefox,32,454070772,32,32
+20,technology,Navegadores,Chrome,33,454070775,33,33
+21,technology,Navegadores,InternetExplorer,34,451211171,34,34
+22,technology,Navegadores,AndroidBrowser,35,451211039,35,35
+23,technology,Navegadores,Outros,36,451211279,36,36
+24,technology,Navegadores,FacebookBrowser,1303,451211222,1303,1303
+25,technology,Navegadores,TwitterBrowser,1456,451211207,1456,1456
+26,technology,Navegadores,Edge,1457,451159837,1457,1457
+27,technology,Sistemas Operacionais,iOS,23,454070748,23,23
+28,technology,Sistemas Operacionais,Android,24,454070751,24,24
+29,technology,Sistemas Operacionais,OSX,25,454070715,25,25
+30,technology,Sistemas Operacionais,Windows,26,454070757,26,26
+31,technology,Sistemas Operacionais,Linux,27,451159786,27,27
+32,technology,Sistemas Operacionais,Outros,28,451211153,28,28
+33,technology,Sistemas Operacionais,WindowsPhone,29,454070769,29,29
+34,technology,Conexão,Residencial,15,1753484,15,15
+35,technology,Conexão,Mobile,16,1753604,16,16
+36,technology,Conexão,Público,17,1752524,17,17
+37,technology,Conexão,Negócios,18,1755644,18,18
+38,technology,Conexão,Corporativo,19,1755764,19,19
+39,technology,Conexão,LanHouse,20,1755884,20,20
+40,technology,Conexão,Acadêmico,21,1756004,21,21
+41,technology,Conexão,Governamental,22,1755524,22,22
+42,technology,Conexão,ATeT,1304,99203804,1304,1304
+43,technology,Conexão,Claro,1305,99203924,1305,1305
+44,technology,Conexão,ColumbusNetworks,1306,99204044,1306,1306
+45,technology,Conexão,CooperativoTelefonica,1307,99204164,1307,1307
+46,technology,Conexão,Copel,1308,99204284,1308,1308
+47,technology,Conexão,Embratel,1309,99204404,1309,1309
+48,technology,Conexão,Entel,1310,99204524,1310,1310
+49,technology,Conexão,GVT,1311,99204644,1311,1311
+50,technology,Conexão,Level3,1312,99204764,1312,1312
+51,technology,Conexão,MCEL,1313,99205004,1313,1313
+52,technology,Conexão,Millicom,1314,99205124,1314,1314
+53,technology,Conexão,Movistar,1315,99205364,1315,1315
+54,technology,Conexão,Multiplay,1316,99205484,1316,1316
+55,technology,Conexão,Nebula,1317,99205604,1317,1317
+56,technology,Conexão,Nextel,1318,99205724,1318,1318
+57,technology,Conexão,Oi,1319,99205844,1319,1319
+58,technology,Conexão,Optimum,1320,99209564,1320,1320
+59,technology,Conexão,Orange,1321,99209804,1321,1321
+60,technology,Conexão,Outros,1322,99210284,1322,1322
+61,technology,Conexão,Predialnet,1323,99210404,1323,1323
+62,technology,Conexão,Softbank,1324,99210524,1324,1324
+63,technology,Conexão,Telefonica,1325,99210644,1325,1325
+64,technology,Conexão,Telmex,1326,99210764,1326,1326
+65,technology,Conexão,TIM,1327,99211004,1327,1327
+66,technology,Conexão,TMobile,1328,99211124,1328,1328
+67,technology,Conexão,,1329,99211244,1329,1329
+68,technology,Conexão,Net,1330,99211964,1330,1330
+69,technology,Conexão,Vivo,1331,99211364,1331,1331
+70,technology,Conexão,Vodafone,1332,99211484,1332,1332
+71,technology,Conexão,Yahoo,1333,99211724,1333,1333
+72,technology,Conexão,Algar,1363,451835784,1363,1363
+73,technology,Conexão,UNE,1590,475034745,1590,1590
+74,technology,Conexão,Telebucaramanga,1591,472083022,1591,1591
+75,technology,Conexão,TIGO,1592,472083025,1592,1592
+76,technology,Conexão,Edatel,1593,472083028,1593,1593
+77,technology,Conexão,Directv,1594,472083031,1594,1594
+78,technology,Conexão,TvAzteca,1595,472083034,1595,1595
+79,technology,Conexão,Axtel,1596,472083037,1596,1596
+80,technology,Conexão,Telcel,1597,472083040,1597,1597
+81,technology,Conexão,TelevisionInternacional,1598,472083043,1598,1598
+82,technology,Conexão,MexicoReddeTelecomunicaciones,1599,472083046,1599,1599
+83,technology,Conexão,CTE,1600,472083049,1600,1600
+84,technology,Conexão,TelefonosdelNoroeste,1601,472083052,1601,1601
+85,technology,Conexão,PrimaS.A,1602,472083055,1602,1602
+86,technology,Conexão,GigaredS.A,1603,472083058,1603,1603
+87,technology,Conexão,TeledifusoraS.A,1604,472083061,1604,1604
+88,technology,Conexão,COTELCAM,1605,472083064,1605,1605
+89,technology,Conexão,TelecentroS.A.,1606,472083067,1606,1606
+90,technology,Conexão,TeleSP,1607,472083070,1607,1607
+91,technology,Conexão,TeleSC,1608,472083073,1608,1608
+92,technology,Conexão,ETB,1609,472083076,1609,1609
+93,technology,Conexão,Cablevision,1610,472083079,1610,1610
+94,technology,Conexão,TelecomArgentina,1611,472083082,1611,1611
+95,technology,Conexão,ColombiaTelecomunicaciones,1612,472083085,1612,1612
+96,technology,Conexão,MegaCable,1613,472083088,1613,1613
+97,technology,Conexão,CablemasTelecomunicaciones,1614,472083091,1614,1614
