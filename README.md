@@ -10,10 +10,10 @@ Desenvolvo muita coisa em Python e gosto de elaborar relatórios em R e dashboar
 
 ## Portfolio
 
-- Web Scraping
-- Design
-- Análises
-- Projetos
+- [Web Scraping](https://github.com/the-data-dude/portfolio/tree/master/web-scraping)
+- [Design]()
+- [Análises](https://github.com/the-data-dude/portfolio/tree/master/analysis)
+- [Projetos](https://github.com/the-data-dude/portfolio/tree/master/projects)
 
 ## Resumo profissional
 
