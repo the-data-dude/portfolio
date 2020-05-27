@@ -40,7 +40,7 @@ Desde o início da minha carreira profissional trabalho com modelagem e análise
 
 
 ## Minha história
-Meu nome é Edson, tenho 23 anos de idade e 5 anos de experiência com modelagem e análise de dados. Comecei sendo estagiário em **planejamento financeiro e controladoria** na incorporadora de empreendimentos [**Cyrela Commercial Properties**](http://www.ccpsa.com.br/pb/), lá eu criava diversas automações em **VBA** para consolidação de dados das diversas áreas da empresa, criava alguns relatórios automatizados no **Excel** e ajudava a área em diversas outras rotinas. 
+Comecei sendo estagiário em **planejamento financeiro e controladoria** na incorporadora de empreendimentos [**Cyrela Commercial Properties**](http://www.ccpsa.com.br/pb/), lá eu criava diversas automações em **VBA** para consolidação de dados das diversas áreas da empresa, criava alguns relatórios automatizados no **Excel** e ajudava a área em diversas outras rotinas. 
 
 Após automatizar diversos processos, meu contrato de estágio se encerrou e eu encontrei uma nova oportunidade de estágio na área de **inteligência de mercado** na empresa de tecnologia e serviços [**Wittel**](https://www.wittel.com/), lá fui **responsável pela elaboração de um estudo de planejamento estratégico para obtenção de novos clientes**.
 
