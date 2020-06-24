@@ -8,7 +8,7 @@ Tenho uma grande afinidade para lidar tanto com números, quanto com pessoas, ch
 
 Desenvolvo muita coisa em Python e gosto de elaborar relatórios em R e dashboards no PowerBI (mas já fui bastante planilheiro, não se engane)
 
-## Portfolio
+## Portfolio (em desenvolvimento, falta colocar bastante coisa)
 
 - [Web Scraping](https://github.com/the-data-dude/portfolio/tree/master/web-scraping)
 - [Design]()
