@@ -29,7 +29,7 @@ Desde o início da minha carreira profissional trabalho com modelagem e análise
 - [**In Loco**](https://www.inloco.com.br/)
   - **Consultoria de dados**, gerando insights para uma carteira específica de clientes, como: Magazine Luiza, Banco do Brasil, Heineken, Pepsico e Unilever
 - [**Vivo**](https://www.vivo.com.br/)
-  - **Gerenciamento de produto**, sendo responsável pela admnistração dos dados e geração de insights do Vivo Pay
+  - **Gerenciamento de produto**, sendo responsável pela administração dos dados e geração de insights do Vivo Pay
 - [**HYPR**](https://www.hypr.mobi/)
   - **Marketing e Tecnologia**, coordenando toda a frente de dados do produto
 
