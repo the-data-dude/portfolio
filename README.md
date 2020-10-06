@@ -2,7 +2,7 @@
 
 # Edson Henrique Delavia
 
-23 anos, formado em matemática, pós graduado em Estatística Aplicada e com 5 anos de experiência em várias empresas.
+23 anos, formado em matemática, pós graduado em Estatística Aplicada e com 4 longos anos de experiência (parece até 10) em diversas empresas.
 
 Tenho uma grande afinidade para lidar tanto com números, quanto com pessoas, cheguei a ser professor de matemática em uma escola pública no centro de SP e me encontrei na programação.
 
@@ -39,7 +39,14 @@ Desde o início da minha carreira profissional trabalho com modelagem e análise
 - Pós graduado em Estatística Aplicada pela FMU
 
 
-## Minha história
+## Minha história (só pra quem gosta de textão)
+
+Comecei sendo professor de matemática com o PBID (Programa de Bolsas de Iniciação à Docência), onde dava aulas e reforços de matemática na escola Caetano de Campo, no centro de SP (em frente à praça Roosevelt). Mas acabei não gostando tanto da docência porque é uma profissão bem desgastante :/ Os alunos não gostam de você, os pais também não e muito menos o governo. Zero estimulo e muito estresse, além disso, não pagava nem a faculdade e eu precisava pagar os boletos atrasados.
+
+Então larguei mão da docência, pelo menos por um tempo, para conseguir um estágio que me ajudasse pelo menos a pagar a mensalidade da faculdade.
+
+E foi a melhor decisão que eu tomei!
+
 Comecei sendo estagiário em **planejamento financeiro e controladoria** na incorporadora de empreendimentos [**Cyrela Commercial Properties**](http://www.ccpsa.com.br/pb/), lá eu criava diversas automações em **VBA** para consolidação de dados das diversas áreas da empresa, criava alguns relatórios automatizados no **Excel** e ajudava a área em diversas outras rotinas. 
 
 Após automatizar diversos processos, meu contrato de estágio se encerrou e eu encontrei uma nova oportunidade de estágio na área de **inteligência de mercado** na empresa de tecnologia e serviços [**Wittel**](https://www.wittel.com/), lá fui **responsável pela elaboração de um estudo de planejamento estratégico para obtenção de novos clientes**.
