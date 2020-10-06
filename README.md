@@ -11,7 +11,6 @@ Desenvolvo muita coisa em Python e gosto de elaborar relatórios em R e dashboar
 ## Portfolio (em desenvolvimento, falta colocar bastante coisa)
 
 - [Web Scraping](https://github.com/the-data-dude/portfolio/tree/master/web-scraping)
-- [Design]()
 - [Análises](https://github.com/the-data-dude/portfolio/tree/master/analysis)
 - [Projetos](https://github.com/the-data-dude/portfolio/tree/master/projects)
 
@@ -29,9 +28,9 @@ Desde o início da minha carreira profissional trabalho com modelagem e análise
 - [**In Loco**](https://www.inloco.com.br/)
   - **Consultoria de dados**, gerando insights para uma carteira específica de clientes, como: Magazine Luiza, Banco do Brasil, Heineken, Pepsico e Unilever
 - [**Vivo**](https://www.vivo.com.br/)
-  - **Gerenciamento de produto**, sendo responsável pela administração dos dados e geração de insights do Vivo Pay
-- [**HYPR**](https://www.hypr.mobi/)
-  - **Marketing e Tecnologia**, coordenando toda a frente de dados do produto
+  - **Produto**, fiquei lá 2 meses e meio, não curti muito a empresa para falar a verdade, clima bem estranho, hierarquia no talo e as coisas demoravam muito pra acontecer. Mas  pude fazer um estudo bem bacana da base de usuários do app Vivo Recarga e segmentar esses usuários para planos de comunicação.
+- [**Olivia AI**](https://www.olivia.ai/br)
+  - **Produto**, hoje sou Analista de dados aqui na Olivia. Ajudo o Head de Monetização a validar hipoteses que se consolidarão em estratégias de monetização da nossa base de usuários e também ajudo a acompanhar os resultados númericos das decisões estratégicas. 
 
 ## Formação Acadêmica
 
@@ -54,4 +53,6 @@ Foi nessa busca que eu conheci a [**In Loco**](https://www.inloco.com.br/), uma 
 
 A **In Loco** foi uma oportunidade imensa para mim, lá fiz diversas amizades, pude aprender muito, desenvolvi tanto meu lado técnico com **Python**, **Spark**, **Scala** e **Tableau**, quanto meu lado interpessoal, **onde aprendi a conduzir reuniões de maneira simples e objetiva, administrar meu tempo com diversas entregas ao longo do dia e como lidar com diferentes tipos de pessoas**. Além disso, tive ótimos exemplos de lideranças extremamente competentes. Foi a maior escola que tive, mas por uma reestruturação estratégica, 70% da empresa teve que sair e eu fui junto.
 
-Após esta saída, ingressei na [**Vivo**](https://www.vivo.com.br/), onde **sou responsável pela geração de insights e dados no produto Vivo Pay**, e, em paralelo, **iniciei** junto com amigos da In Loco a [**HYPR**](https://www.hypr.mobi/), **uma stack de mobile marketing, onde digitalizamos a jornada offline dos consumidores, levando-os para uma jornada de conversão online**.
+Após esta saída, ingressei na [**Vivo**](https://www.vivo.com.br/), onde fiquei pouco tempo, cerca de uns dois meses e meio, porque não curti muito o clima da empresa e como as coisas aconteceram. Entrei como analista de dados de um produto que não existia, o desenvolvimento estava super atrasado e como não tinha dados para eu analisar, comecei a ajudar o gerente da área a mexer em algumas planilhas de planejamento de negócio... Não tinha nada a ver com o meu escopo, então decidi sair. Mas, antes de sair, pude realizar um estudo super legal sobre a base de usuários do Vivo Recarga e segmentar esses usuários para planos de comunicação.
+
+Fiquei um tempo desempregado procurando outra oportunidade, até que a [**Olivia AI**](https://www.olivia.ai/br) me achou! A Olivia é uma assistente de finanças pessoais que te ajuda a acompanhar os gastos de todas as suas contas bancárias, de investimento e até de vale refeição em um só lugar. Além disso, ela aprende os seus padrões de compra, recomenda formas melhores de gastar o seu dinheiro, e oferece descontos exclusivos no que você costuma comprar! Está sendo uma oportunidade muito legal! Aqui eu ajudo o Head de Monetização a validar hipoteses que se consolidarão em estratégias de monetização da nossa base de usuários e também ajudo a monitorar os resultados decisões estratégicas. Cultura bem legal, clima super tranquilo, MUITO trabalho (as vezes até esqueço que tenho uma casa para cuidar kkkkk) e 0 hierarquia. Do jeito que eu gosto! 
