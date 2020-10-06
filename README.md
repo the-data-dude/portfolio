@@ -2,7 +2,7 @@
 
 # Edson Henrique Delavia
 
-23 anos, formado em matemática e pós graduado em Estatística Aplicada. Chefe de Dados na HYPR e, ao mesmo tempo, Analista de Dados SR na Vivo.
+23 anos, formado em matemática, pós graduado em Estatística Aplicada e com 5 anos de experiência em várias empresas.
 
 Tenho uma grande afinidade para lidar tanto com números, quanto com pessoas, cheguei a ser professor de matemática em uma escola pública no centro de SP e me encontrei na programação.
 
@@ -13,6 +13,7 @@ Desenvolvo muita coisa em Python e gosto de elaborar relatórios em R e dashboar
 - [Web Scraping](https://github.com/the-data-dude/portfolio/tree/master/web-scraping)
 - [Análises](https://github.com/the-data-dude/portfolio/tree/master/analysis)
 - [Projetos](https://github.com/the-data-dude/portfolio/tree/master/projects)
+- [Kaggle](https://www.kaggle.com/skulden)
 
 ## Resumo profissional
 
