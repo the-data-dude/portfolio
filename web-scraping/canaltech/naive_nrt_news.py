@@ -20,4 +20,4 @@ while True:
         print('{} - Adicionados {} novo(s) registro(s) no csv'.format(datetime.now(), new_rows))
         
     #Espera 5 minutos antes de repetir o processo
-    time.sleep(60)
+    time.sleep(60 * 5)
