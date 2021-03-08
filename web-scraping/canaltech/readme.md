@@ -2,6 +2,8 @@
 
 #### O crawler foi feito de uma forma bem simplista, foi dado 7 dias para o desenvolvimento de algo mais robusto, porém tive só tive efetivamente um dia para olhar e estou enferrujado em muita coisa... Atualmente eu trabalho mais fazendo processos de ETL usando pyspark, disponibilizando informações para equipes de negócio.
 
+#### O Objetivo principal aqui é ler as noticias da sessão "últimas noticias", para criar um algoritmo simples de coleta "near real time" das informações disponibilizadas no portal
+
 #### O arquivo naive_nrt_news.py é o arquivo principal dessa aplicação, ao executar, a cada 60 segundos ele irá ver no site se há novas noticias e adicionará as informações no arquivo canaltech_news.csv.
 
 #### As informações disponibilizadas no csv são:
@@ -14,7 +16,7 @@
 
 ### Problemas encontrados na elaboração do projeto:
 - Não consegui rodar o docker no windows, mesmo usando as configurações do WSL2 disponibilizadas no site da Microsoft e seguindo alguns tutoriais no youtube;
-- Dificuldade em coletar os comentários e carregar mais do que 12 artigos, pois é necessário interação com o site para carregar mais conteúdos e para carregar os comentários (o que pode ser resolvido usando o selenium ao invés do beautifulsoup)
+- Dificuldade em coletar os comentários e carregar mais do que 12 artigos, pois é necessário interação com o site para carregar mais conteúdos e para carregar os comentários (o que pode ser resolvido usando o selenium ao invés do beautifulsoup). Acabei não coletando os comentários, mas usei eles para exemplificar possíveis análises mencionadas mais a baixo neste readme
 
 ### Como o projeto pode ficar melhor e mais escalável?
 - Passar a aplicação para rodar em um ambiente docker;
