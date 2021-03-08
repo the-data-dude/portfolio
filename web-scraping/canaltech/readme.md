@@ -4,7 +4,7 @@
 
 #### O Objetivo principal aqui é ler as noticias da sessão "últimas noticias", para criar um algoritmo simples de coleta "near real time" das informações disponibilizadas no portal
 
-#### O arquivo naive_nrt_news.py é o arquivo principal dessa aplicação, ao executar, a cada 60 segundos ele irá ver no site se há novas noticias e adicionará as informações no arquivo canaltech_news.csv.
+#### O arquivo naive_nrt_news.py é o arquivo principal dessa aplicação, ao executar, a cada 2 minutos ele irá ver no site se há novas noticias e adicionará as informações no arquivo canaltech_news.csv.
 
 #### As informações disponibilizadas no csv são:
 - article_url : url do artigo;
