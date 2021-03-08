@@ -22,7 +22,7 @@
 - Criar mais crawlers de portais concorrentes, para conseguirmos realizar comparações entre eles;
 - Passar a estrutura para o Google Cloud Plataform;
 - Criar um fluxo no dataflow da GCP para disponibilizar as informações do MongoDB no BigQuery, facilitando exploração e plotagem das informações por ferramentas de BI ou até mesmo no próprio Google Data Studio
-- 
+
 ### Métricas relevantes que podem ser tiradas desse projeto:
 - Autores mais relevantes por portal e por categoria de assunto (usando #likes e #comentarios no post como critério de relevância);
 - Número de noticias por hora por portal e por categoria;
