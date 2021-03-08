@@ -21,10 +21,10 @@ def crawl_canaltech(from_dt):
     articles = page_content.find_all(class_='col-xs-12 col-sm-6 col-md-4')
 
     for article in articles:
+        
         try:
-
-            # Coloquei todo mundo dentro do try, porque se ocorrer eu prefiro não ingerir um dado errado do que ingerir e ter várias sujeiras
-           
+            # Coloquei todo mundo dentro do try, porque se ocorrer algum problema eu prefiro não ingerir um dado errado do que ingerir e ter várias sujeiras
+            
                 #Coleta a hora de publicação do artigo
                 article_str_time = article.find('span', class_='time')['title']
                 article_date = re.sub(" +", " ", article_str_time.split('às')[0].replace('de', '').strip())
