@@ -19,5 +19,5 @@ while True:
         recent_news_df.to_csv('canaltech_news.csv', mode = 'a', sep = ';', index = False, header = False)
         print('{} - Adicionados {} novo(s) registro(s) no csv'.format(datetime.now(), new_rows))
         
-    #Espera 5 minutos antes de repetir o processo
-    time.sleep(60 * 5)
+    #Espera 2 minutos antes de repetir o processo
+    time.sleep(60 * 2)
