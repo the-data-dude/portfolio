@@ -8,7 +8,7 @@ import utils
 
 def crawl_canaltech(from_dt):
 
-# Coleta os artigos do site canal_tech, o n_articles define a quantidade de artigos que vamos coletar
+# Coleta os artigos do site canal_tech
 # Cada artigo é retornado em um dicionário e todos eles são adicionados à uma lista, o retorno da função é a lista completa com os artigos
 
     url = 'https://canaltech.com.br'
