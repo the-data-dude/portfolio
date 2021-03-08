@@ -16,9 +16,9 @@
 - Não consegui rodar o docker no windows, mesmo usando as configurações do WSL2 disponibilizadas no site da Microsoft e seguindo alguns tutoriais no youtube;
 - Dificuldade em coletar os comentários e carregar mais do que 12 artigos, pois é necessário interação com o site para carregar mais conteúdos e para carregar os comentários (o que pode ser resolvido usando o selenium ao invés do beautifulsoup)
 
-### Como eu espero deixar o projeto melhor?
+### Como o projeto pode ficar melhor e mais escalável?
 - Passar a aplicação para rodar em um ambiente docker;
-- Criar um container docker com a imagem do MongoDB para adicionar as informações, inclusive com o conteúdo do artigo, facilitando a busca de por conteúdo relevante;
+- Criar um container docker com a imagem do MongoDB para adicionar as informações, inclusive com o conteúdo do artigo, facilitando a busca por conteúdo relevante;
 - Criar mais crawlers de portais concorrentes, para conseguirmos realizar comparações entre eles;
 - Passar a estrutura para o Google Cloud Plataform;
 - Criar um fluxo no dataflow da GCP para disponibilizar as informações do MongoDB no BigQuery, facilitando exploração e plotagem das informações por ferramentas de BI ou até mesmo no próprio Google Data Studio
