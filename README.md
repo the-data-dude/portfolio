@@ -32,7 +32,7 @@ Desde o início da minha carreira profissional trabalho com modelagem e análise
   - **Produto**, fiquei lá 2 meses e meio, não curti muito a empresa para falar a verdade, clima bem estranho, hierarquia no talo e as coisas demoravam muito pra acontecer. Mas  pude fazer um estudo bem bacana da base de usuários do app Vivo Recarga e segmentar esses usuários para planos de comunicação.
 - [**Olivia AI**](https://www.olivia.ai/br)
   - **Produto**, Ajudo o Head de Monetização a validar hipoteses que se consolidarão em estratégias de monetização da nossa base de usuários e também ajudo a acompanhar os resultados das decisões estratégicas do produto. 
- -[**Pernambucanas**](https://www.pernambucanas.com.br)
+- [**Pernambucanas**](https://www.pernambucanas.com.br)
  -- **Fraude e Riscos**, Aqui eu atuo como consultor de "Analytics Engineering", a empresa possui diversas fontes de dados, dando em DW tradicional quanto no Cloudera. Eu atuo como consultor para a área de Fraude e Riscos, mapeando as dores deles em relação à dados que precisam ser disponibilizados, faço a gestão das demandas direto com o cliente interno e desenvolvo as soluções que proponho. Até então, entreguei um projeto bem bacana de avaliação do modelo de documentoscopia deles, mostrando qual é o modelo de documentoscopia que mais performa, quais são os motivos que mais reprovam e como é o desempenho da operação da mesa de avaliação (quando um documento não consegue passar pelo modelo, ele vai para um humano avaliar)
 
 ## Formação Acadêmica
