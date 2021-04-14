@@ -1,7 +1,5 @@
 ## Crawler de informações do site Canaltech
 
-#### O crawler foi feito de uma forma bem simplista, foi dado 7 dias para o desenvolvimento de algo mais robusto, porém tive só tive efetivamente um dia para olhar e estou enferrujado em muita coisa... Atualmente eu trabalho mais fazendo processos de ETL usando pyspark, disponibilizando informações para equipes de negócio.
-
 #### O Objetivo principal aqui é ler as noticias da sessão "últimas noticias", para criar um algoritmo simples de coleta "near real time" das informações disponibilizadas no portal
 
 #### O arquivo naive_nrt_news.py é o arquivo principal dessa aplicação, ao executar, a cada 2 minutos ele irá ver no site se há novas noticias e adicionará as informações no arquivo canaltech_news.csv.
